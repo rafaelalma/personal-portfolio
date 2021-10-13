@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.project-tile {
+    display: block;
+}
+
+[class^="project-image"] {
+    display: block;
+}
+
+.contact-link {
+    display: block;
+}
