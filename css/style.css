@@ -1,19 +1,66 @@
 /* Mobile First */
 
-/* * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
 
 #navbar {
     position: fixed;
     top: 0;
     left: 0;
+
+    width: 100%;
+}
+
+.nav-bar {
+    list-style: none;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    background-color: darkslateblue;
+}
+
+.nav-link {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+
+    color: #ddd;
+    font-size: 1.2em;
 }
 
 #welcome-section {
     height: 100vh;
+
+    background-color: #222;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-section h1,
+#welcome-section p {
+    color: #ddd;
+    text-align: center;
+}
+
+#welcome-section h1 {
+    font-size: 3em;
+}
+
+#welcome-section p {
+    font-size: 2em;
 }
 
 /* Tablet Styles */
