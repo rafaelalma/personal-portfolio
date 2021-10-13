@@ -1,5 +1,27 @@
+/* Mobile First */
+
 /* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 } */
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#welcome-section {
+    height: 100vh;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 481px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 769px) {
+    
+}
