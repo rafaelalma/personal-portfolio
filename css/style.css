@@ -24,7 +24,6 @@ body {
 
     width: 100%;
     display: flex;
-    justify-content: space-around;
 
     background-color: darkslateblue;
 }
@@ -36,6 +35,10 @@ body {
 
     color: #ddd;
     font-size: 1.2em;
+}
+
+.nav-link:hover {
+    background-color: rgb(62, 50, 120);
 }
 
 #welcome-section {
@@ -61,6 +64,98 @@ body {
 
 #welcome-section p {
     font-size: 2em;
+}
+
+#projects {
+    background-color: darkslateblue;
+    padding: 2em;
+}
+
+#projects h2,
+#contact h2 {
+    color: #ddd;
+    text-align: center;
+    font-size: 2em;
+
+    margin-bottom: 1em;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+    list-style: none;
+}
+
+.project-tile {
+    background-color: #ddd;
+
+    display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+}
+
+[class^="project-image"] {
+    width: 400px;
+    height: 400px;
+
+    background-color: #ddd;
+}
+
+[class^="project-title"] {
+    color: #ddd;
+    background-color: #222;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-tile:hover [class^="project-title"] {
+    color: rgb(160, 140, 250);
+}
+
+#contact {
+    background-color: #222;
+    padding: 2em;
+}
+
+.contact-links-wrapper {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.contact-link {
+    display: block;
+    width: 200px;
+    padding: 1em 0;
+    background-color: rgb(160, 140, 250);
+
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.contact-link:hover {
+    background-color: darkslateblue;
+}
+
+.footer {
+    padding: 2em;
+    text-align: center;
+    background-color: darkslateblue;
+    color: #ddd;
 }
 
 /* Tablet Styles */
